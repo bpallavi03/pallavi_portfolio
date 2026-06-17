@@ -251,40 +251,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // --- Contact Form Submission Simulator ---
-  const contactForm = document.getElementById('contactForm');
-  const formFeedback = document.getElementById('formFeedback');
 
-  if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-      e.preventDefault();
-      
-      const submitBtn = contactForm.querySelector('.btn-submit');
-      const originalText = submitBtn.innerHTML;
-      
-      // Loading state
-      submitBtn.disabled = true;
-      submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
-      
-      // Simulate API post request delay (1.5 seconds)
-      setTimeout(() => {
-        submitBtn.disabled = false;
-        submitBtn.innerHTML = originalText;
-        
-        // Reset form
-        contactForm.reset();
-
-        // Display success banner
-        formFeedback.className = 'form-feedback success';
-        formFeedback.innerHTML = '<i class="fas fa-check-circle"></i> Thank you! Your message was sent successfully.';
-        
-        // Clear message after 5 seconds
-        setTimeout(() => {
-          formFeedback.innerHTML = '';
-          formFeedback.className = 'form-feedback';
-        }, 5000);
-        
-      }, 1500);
-    });
-  }
 });
