@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pallavi Bagam | Cloud Engineer & MuleSoft Developer Portfolio. Experienced in building cloud-native integrations, CI/CD pipelines, and serverless workloads.">
+  <title>Pallavi Bagam | Cloud Engineer & MuleSoft Developer</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scrollProgress"></div>
+  </div>
+
+  <!-- Background Decorative Spheres -->
+  <div class="glow-sphere glow-sphere-1"></div>
+  <div class="glow-sphere glow-sphere-2"></div>
+  <div class="glow-sphere glow-sphere-3"></div>
+
+  <!-- Header Navigation -->
+  <header class="main-header">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>PALLAVI<span class="logo-accent">.B</span><span class="logo-bracket">/&gt;</span>
+      </a>
+      
+      <nav class="nav-menu" id="navMenu">
+        <ul>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link contact-btn-nav">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="nav-actions">
+        <!-- Theme Toggle Switch -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle Light/Dark Mode">
+          <i class="fas fa-moon moon-icon"></i>
+          <i class="fas fa-sun sun-icon"></i>
+        </button>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <div class="hero-container">
+      <div class="hero-content reveal">
+        <span class="hero-greeting">Hi, my name is</span>
+        <h1 class="hero-title">PALLAVI BAGAM</h1>
+        <div class="hero-subtitle-wrapper">
+          <span class="static-txt">I build </span>
+          <span class="dynamic-txt" id="typedText">Cloud-Native Integrations</span>
+        </div>
+        <p class="hero-description">
+          Cloud Engineer with professional experience at <strong>PricewaterhouseCoopers (PwC)</strong>. I specialize in building cloud-native integrations, automating CI/CD pipelines, and deploying serverless applications across <strong>AWS, Azure, and GCP</strong>.
+        </p>
+        
+        <div class="hero-ctas">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-project-diagram"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-paper-plane"></i> Get In Touch
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://linkedin.com/in/bagampallavi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="mailto:pallavibagam2002@gmail.com" aria-label="Email">
+            <i class="far fa-envelope"></i>
+          </a>
+          <a href="tel:+15133322501" aria-label="Phone">
+            <i class="fas fa-phone-alt"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="hero-image-wrapper reveal">
+        <div class="photo-frame">
+          <div class="photo-glow"></div>
+          <div class="photo-glow-alt"></div>
+          <img src="Pallavi_Photo.png" alt="Pallavi Bagam Professional Headshot" class="profile-photo">
+          
+          <!-- Floating tech badges -->
+          <div class="floating-badge badge-1">
+            <i class="fab fa-aws"></i>
+          </div>
+          <div class="floating-badge badge-2">
+            <i class="fab fa-microsoft"></i>
+          </div>
+          <div class="floating-badge badge-3">
+            <span class="mule-icon">Mule</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Dashboard Panel -->
+  <section class="stats-section reveal">
+    <div class="stats-container">
+      <div class="stat-card">
+        <div class="stat-num" data-val="1.3" data-float="true">0.0</div>
+        <div class="stat-label">Years Experience (Inc. Internship)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" data-val="10">0</div>
+        <div class="stat-label">MuleSoft Integration Flows</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" data-val="4.0" data-float="true">0.0</div>
+        <div class="stat-label">Master's GPA (Univ. of Cincinnati)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num" data-val="4">0</div>
+        <div class="stat-label">Industry Certifications</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="about-section" id="about">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">01.</span> About Me
+      </h2>
+      
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am a passionate <strong>Cloud Engineer</strong> focused on designing secure, robust, and automated digital infrastructure. During my time at <strong>PricewaterhouseCoopers (PwC)</strong>, I engineered integration flows connecting Salesforce CRM with core relational databases and legacy applications, leveraging API-led connectivity and serverless architectures.
+          </p>
+          <p>
+            I hold a <strong>Master of Engineering in Computer Science</strong> with a perfect <strong>GPA of 4.0/4.0</strong> from the University of Cincinnati. My academic and professional journey revolves around API design, testing automation, CI/CD maturity, and telemetry monitoring.
+          </p>
+          <p>
+            I am deeply committed to code quality and automation. I design RESTful APIs using contract-first RAML, maintain rigorous test coverage (95%+ using MUnit), and write custom scripts to make manual deployment processes obsolete.
+          </p>
+          
+          <div class="education-block">
+            <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+            <div class="edu-item">
+              <div class="edu-header">
+                <strong>University of Cincinnati</strong>
+                <span>Aug 2024 - Apr 2026</span>
+              </div>
+              <div class="edu-detail">Master of Engineering in Computer Science | GPA: 4.0 / 4.0</div>
+            </div>
+            <div class="edu-item">
+              <div class="edu-header">
+                <strong>Malla Reddy Engineering College for Women</strong>
+                <span>May 2019 - May 2023</span>
+              </div>
+              <div class="edu-detail">Bachelor of Technology in Information Technology | Hyderabad, India</div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-featured-cards reveal">
+          <div class="featured-card accent-azure">
+            <div class="card-icon"><i class="fas fa-cloud"></i></div>
+            <h4>Multi-Cloud Deployments</h4>
+            <p>Deploying serverless workloads and data pipelines on AWS (Lambda, API Gateway), Azure (Data Factory, App Service), and GCP.</p>
+          </div>
+          <div class="featured-card accent-mulesoft">
+            <div class="card-icon"><i class="fas fa-network-wired"></i></div>
+            <h4>API-Led Connectivity</h4>
+            <p>Designing RAML, building Mule flows, implementing OAuth 2.0, and executing deployments in MuleSoft CloudHub.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills-section" id="skills">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">02.</span> Technical Skills
+      </h2>
+      
+      <p class="section-intro reveal">
+        Here are the technologies, programming languages, and tools I have used in production environments and complex enterprise academic projects:
+      </p>
+
+      <div class="skills-grid reveal">
+        <!-- Cloud Platforms -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-server"></i>
+            <h3>Cloud Platforms</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fab fa-aws"></i> AWS (Lambda, S3, CloudFront, API Gateway, DynamoDB, CloudWatch, EC2)</div>
+            <div class="skill-tag"><i class="fab fa-microsoft"></i> Microsoft Azure (Data Factory, Blob Storage, App Service, Azure Monitor)</div>
+            <div class="skill-tag"><i class="fab fa-google"></i> Google Cloud Platform (Compute Engine, App Engine, Dialogflow, Stackdriver)</div>
+          </div>
+        </div>
+
+        <!-- Integration & APIs -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-link"></i>
+            <h3>Integration & APIs</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fas fa-project-diagram"></i> MuleSoft Anypoint Studio & Platform</div>
+            <div class="skill-tag"><i class="fas fa-exchange-alt"></i> REST APIs & API-Led Connectivity</div>
+            <div class="skill-tag"><i class="fas fa-file-code"></i> RAML (API Design) & DataWeave</div>
+            <div class="skill-tag"><i class="fab fa-salesforce"></i> Salesforce CRM Integration</div>
+            <div class="skill-tag"><i class="fas fa-key"></i> OAuth 2.0, Rate Limiting & IP Whitelisting</div>
+            <div class="skill-tag"><i class="fas fa-paper-plane"></i> Postman & MUnit Testing</div>
+          </div>
+        </div>
+
+        <!-- DevOps & CI/CD -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-infinity"></i>
+            <h3>DevOps & Automation</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fas fa-cogs"></i> Azure DevOps CI/CD</div>
+            <div class="skill-tag"><i class="fab fa-github-actions"></i> GitHub Actions</div>
+            <div class="skill-tag"><i class="fab fa-docker"></i> Docker Containers</div>
+            <div class="skill-tag"><i class="fas fa-cloud-upload-alt"></i> MuleSoft CloudHub 2.0</div>
+            <div class="skill-tag"><i class="fab fa-git-alt"></i> Git Version Control</div>
+          </div>
+        </div>
+
+        <!-- Programming -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-code"></i>
+            <h3>Programming</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fab fa-python"></i> Python</div>
+            <div class="skill-tag"><i class="fab fa-java"></i> Java</div>
+            <div class="skill-tag"><i class="fas fa-terminal"></i> Shell Scripting (Bash)</div>
+            <div class="skill-tag"><i class="fab fa-js"></i> JavaScript</div>
+          </div>
+        </div>
+
+        <!-- ML & Data -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-brain"></i>
+            <h3>Data & ML</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fas fa-chart-line"></i> Scikit-learn (Regression, Random Forest, GBDT)</div>
+            <div class="skill-tag"><i class="fas fa-database"></i> MySQL & PostgreSQL</div>
+            <div class="skill-tag"><i class="fas fa-table"></i> Pandas & NumPy</div>
+            <div class="skill-tag"><i class="fas fa-language"></i> Natural Language Processing (spaCy)</div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Operating Systems -->
+        <div class="skills-category">
+          <div class="category-header">
+            <i class="fas fa-tools"></i>
+            <h3>Frameworks & Systems</h3>
+          </div>
+          <div class="skills-list">
+            <div class="skill-tag"><i class="fab fa-linux"></i> Linux OS & Core Commands</div>
+            <div class="skill-tag"><i class="fas fa-flask"></i> Flask (Python Microframework)</div>
+            <div class="skill-tag"><i class="fas fa-chart-bar"></i> Chart.js (Data Visualization)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Timeline Section -->
+  <section class="experience-section" id="experience">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">03.</span> Work Experience
+      </h2>
+
+      <div class="timeline reveal">
+        <!-- Item 1: Cloud Engineer Full-time -->
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="role">Cloud Engineer</span>
+              <span class="company">PricewaterhouseCoopers (PwC)</span>
+              <span class="date"><i class="far fa-calendar-alt"></i> Aug 2023 - Jun 2024</span>
+            </div>
+            <div class="timeline-content">
+              <ul>
+                <li>Designed and deployed <strong>10+ MuleSoft integration flows</strong> in Anypoint Studio connecting Salesforce CRM, relational databases, and third-party enterprise apps, improving data sync reliability by <strong>35%</strong>.</li>
+                <li>Automated application deployments to CloudHub using <strong>Azure DevOps CI/CD pipelines</strong>, reducing manual deployment time from ~4 hours to <strong>under 45 minutes</strong> and eliminating release-day rollback incidents.</li>
+                <li>Built REST API specifications using <strong>RAML</strong> in Anypoint Design Center, enforcing OAuth 2.0, rate limiting, and IP whitelisting security policies.</li>
+                <li>Authored and maintained <strong>50+ MUnit test cases</strong> achieving near-100% coverage across critical integration endpoints, integrating test execution into CI/CD pipelines.</li>
+                <li>Implemented centralized error handling and structured logging via <strong>Anypoint Monitoring</strong>, reducing MTTR for production incidents by <strong>40%</strong> (from 120 min to ~70 min).</li>
+              </ul>
+              <div class="card-tags">
+                <span>MuleSoft</span>
+                <span>Anypoint</span>
+                <span>Salesforce</span>
+                <span>Azure DevOps</span>
+                <span>CI/CD</span>
+                <span>RAML</span>
+                <span>MUnit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Cloud Engineer Intern -->
+        <div class="timeline-item">
+          <div class="timeline-badge">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="role">Cloud Engineer Intern</span>
+              <span class="company">PricewaterhouseCoopers (PwC)</span>
+              <span class="date"><i class="far fa-calendar-alt"></i> Mar 2023 - Aug 2023</span>
+            </div>
+            <div class="timeline-content">
+              <ul>
+                <li>Built end-to-end MuleSoft integration solutions using <strong>API-Led Connectivity</strong>, connecting Salesforce CRM with 3 downstream internal business applications.</li>
+                <li>Designed <strong>RAML-based REST API specifications</strong> to fetch and validate customer and order data from Salesforce, reducing manual data retrieval time by standardizing 15+ data exchange workflows.</li>
+                <li>Developed order history process API with customer ID and order ID endpoints, deployed to CloudHub, and validated all endpoints using Postman.</li>
+                <li>Configured <strong>CloudHub environments</strong> including API policies, environment properties, logging, and deployment management to maintain performance SLAs.</li>
+              </ul>
+              <div class="card-tags">
+                <span>MuleSoft</span>
+                <span>API-Led Connectivity</span>
+                <span>Salesforce</span>
+                <span>RAML</span>
+                <span>CloudHub</span>
+                <span>Postman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects-section" id="projects">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">04.</span> Academic Projects
+      </h2>
+
+      <p class="section-intro reveal">
+        A collection of cloud integration, infrastructure monitoring, and machine learning projects built during my studies and technical research.
+      </p>
+
+      <!-- Project Filters -->
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="integration">Integrations & Cloud</button>
+        <button class="filter-btn" data-filter="monitor">Monitoring & Systems</button>
+        <button class="filter-btn" data-filter="ml">Data & Machine Learning</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="projects-grid reveal">
+        
+        <!-- Project 1: Order Fulfillment -->
+        <div class="project-card" data-category="integration">
+          <div class="project-accent accent-mule"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Enterprise Order Fulfillment Platform</h3>
+          <p class="project-card-desc">
+            An end-to-end order processing platform built using contract-first RAML design. Integrates Salesforce with databases, validating orders and preventing duplicates using unique constraints and DataWeave.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Implements event-driven analytics publishing using Mule Object Store.</li>
+              <li>Configured Azure DevOps CI/CD pipelines to automate Maven builds.</li>
+              <li>Validates and deploys secure HTTPS endpoints on CloudHub 2.0.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>MuleSoft</span>
+            <span>APIKit</span>
+            <span>DataWeave</span>
+            <span>PostgreSQL</span>
+            <span>Azure DevOps</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Serverless Quiz -->
+        <div class="project-card" data-category="integration">
+          <div class="project-accent accent-aws"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Serverless Global Quiz Platform</h3>
+          <p class="project-card-desc">
+            A globally accessible quiz application built on React.js and a serverless AWS architecture. Enables dynamic quiz generation, automatic scoring, and high scalability.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Hosted frontend on Amazon S3 and distributed via CloudFront CDN for sub-second page loads.</li>
+              <li>Backend endpoints deployed via API Gateway and Lambda functions querying DynamoDB.</li>
+              <li>Implemented automated deployment via GitHub Actions CI/CD pipelines.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>AWS Lambda</span>
+            <span>DynamoDB</span>
+            <span>S3</span>
+            <span>CloudFront</span>
+            <span>React</span>
+          </div>
+        </div>
+
+        <!-- Project 3: Linux Monitor -->
+        <div class="project-card" data-category="monitor">
+          <div class="project-accent accent-sys"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Linux Infrastructure Health Monitor</h3>
+          <p class="project-card-desc">
+            A real-time Linux infrastructure monitoring dashboard that collects CPU, memory, and disk metrics to identify spikes and classify degradation.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Tracks system performance metrics dynamically over 24-hour historical windows.</li>
+              <li>Custom anomaly detection algorithm calibrated against a 30-day baseline.</li>
+              <li>Dashboard built using Flask and Chart.js with dynamic light and dark theme toggling.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>Python</span>
+            <span>Flask</span>
+            <span>psutil</span>
+            <span>Chart.js</span>
+            <span>Linux</span>
+          </div>
+        </div>
+
+        <!-- Project 4: Retail Analytics -->
+        <div class="project-card" data-category="ml">
+          <div class="project-accent accent-azure-card"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Retail Analytics Platform on Azure</h3>
+          <p class="project-card-desc">
+            Data pipeline that ingests and transforms 10,000+ retail transaction records using Azure Data Factory and processes them for forecasting.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Stores transformed transaction files in Azure Blob Storage.</li>
+              <li>Evaluated three ML models (Regression, Random Forest, GBDT) for customer churn.</li>
+              <li>Dashboard visualizes segments and seasonal trends on Azure App Service.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>Azure Data Factory</span>
+            <span>Blob Storage</span>
+            <span>Python</span>
+            <span>Scikit-learn</span>
+          </div>
+        </div>
+
+        <!-- Project 5: Chatbot GCP -->
+        <div class="project-card" data-category="monitor">
+          <div class="project-accent accent-gcp"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">College Inquiry Chatbot on GCP</h3>
+          <p class="project-card-desc">
+            A cloud-native chatbot built on Google Cloud Platform to handle university-related queries utilizing Google Dialogflow.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Manages 15+ query categories including tuition, housing, and admissions.</li>
+              <li>Fulfillment backend hosted on Google Compute Engine virtual machines.</li>
+              <li>Frontend hosted via Google App Engine with auto-scaling metrics.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>GCP</span>
+            <span>Dialogflow</span>
+            <span>Compute Engine</span>
+            <span>App Engine</span>
+          </div>
+        </div>
+
+        <!-- Project 6: Admission Predictor -->
+        <div class="project-card" data-category="ml">
+          <div class="project-accent accent-ml-card"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Admission Prediction Tool</h3>
+          <p class="project-card-desc">
+            Machine learning platform that predicts college admission probability based on test scores and applicant metadata profiles.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Trained Decision Trees, Naïve Bayes, and SVM models.</li>
+              <li>Optimized predictive accuracy using feature engineering and hyperparameter grids.</li>
+              <li>Generates precision-recall graphs and confusion matrix reports.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>Python</span>
+            <span>Scikit-learn</span>
+            <span>Pandas</span>
+            <span>NumPy</span>
+            <span>Matplotlib</span>
+          </div>
+        </div>
+
+        <!-- Project 7: Resume Screening -->
+        <div class="project-card" data-category="ml">
+          <div class="project-accent accent-ml-card"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Automated Resume Screening</h3>
+          <p class="project-card-desc">
+            An NLP pipeline that automates candidate screening by parsing, parsing keywords, and scoring submitted resume text files.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Parses applicant profiles using NLP to extract certifications, degrees, and skills.</li>
+              <li>Integrates SMTP module for instant email notifications on application progress.</li>
+              <li>Flask dashboard for HR administrators to manage candidate rankings.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>Python</span>
+            <span>spaCy NLP</span>
+            <span>Flask</span>
+            <span>SMTP</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section class="certifications-section" id="certifications">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">05.</span> Certifications
+      </h2>
+      
+      <div class="certs-grid reveal">
+        <!-- Cert 1 -->
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">MuleSoft Certified Developer – Level 1</h3>
+            <span class="cert-issuer">Issued by: Salesforce</span>
+            <span class="cert-date">Year: 2023</span>
+          </div>
+        </div>
+
+        <!-- Cert 2 -->
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">Cisco Networking Academy Certification</h3>
+            <span class="cert-issuer">Issued by: Cisco</span>
+            <span class="cert-date">Year: 2022</span>
+          </div>
+        </div>
+
+        <!-- Cert 3 -->
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fas fa-award"></i>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">Pearson Certification</h3>
+            <span class="cert-issuer">Issued by: Pearson</span>
+            <span class="cert-date">Year: 2021</span>
+          </div>
+        </div>
+
+        <!-- Cert 4 -->
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fas fa-check-double"></i>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">TCS iON Certification</h3>
+            <span class="cert-issuer">Issued by: Tata Consultancy Services</span>
+            <span class="cert-date">Year: 2019</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section" id="contact">
+    <div class="section-container">
+      <h2 class="section-header reveal">
+        <span class="section-number">06.</span> Get In Touch
+      </h2>
+      
+      <div class="contact-grid">
+        <div class="contact-info-panel reveal">
+          <h3>Let's Collaborate</h3>
+          <p>
+            I am currently seeking full-time and contract roles as a <strong>Cloud Engineer</strong> or <strong>MuleSoft Developer</strong>. If you have an opportunity or just want to connect, feel free to reach out!
+          </p>
+          
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="far fa-envelope"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Email Me</span>
+                <span class="detail-val" id="emailVal">pallavibagam2002@gmail.com</span>
+                <button class="copy-btn" data-target="emailVal" aria-label="Copy email to clipboard">
+                  <i class="far fa-copy"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fas fa-phone-alt"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Call / Text</span>
+                <span class="detail-val" id="phoneVal">(513)-332-2501</span>
+                <button class="copy-btn" data-target="phoneVal" aria-label="Copy phone number to clipboard">
+                  <i class="far fa-copy"></i>
+                </button>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="detail-text">
+                <span class="detail-label">Location</span>
+                <span class="detail-val">San Jose, CA 95135</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-panel reveal">
+          <form class="contact-form" id="contactForm" onsubmit="return false;">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="formName">Name</label>
+                <input type="text" id="formName" name="name" placeholder="John Doe" required>
+              </div>
+              <div class="form-group">
+                <label for="formEmail">Email</label>
+                <input type="email" id="formEmail" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="formSubject">Subject</label>
+              <input type="text" id="formSubject" name="subject" placeholder="Collaboration / Job Inquiry" required>
+            </div>
+
+            <div class="form-group">
+              <label for="formMessage">Message</label>
+              <textarea id="formMessage" name="message" rows="5" placeholder="Hi Pallavi, I'd love to talk about..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-submit">
+              <i class="far fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div class="form-feedback" id="formFeedback"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clipboard Copy Toast Notification -->
+  <div class="toast" id="toast">Copied to clipboard!</div>
+
+  <!-- Footer -->
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-links">
+        <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/in/bagampallavi/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+      </div>
+      <p class="footer-copy">
+        Designed & Built by Pallavi Bagam &copy; 2026. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating Back-to-Top Button -->
+  <button class="back-to-top" id="backToTop" aria-label="Scroll back to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
