@@ -154,7 +154,7 @@
         <div class="stat-label">Master's GPA (Univ. of Cincinnati)</div>
       </div>
       <div class="stat-card">
-        <div class="stat-num" data-val="5">0</div>
+        <div class="stat-num" data-val="6">0</div>
         <div class="stat-label">Industry Certifications</div>
       </div>
     </div>
@@ -262,6 +262,7 @@
             <h3>DevOps & CI/CD</h3>
           </div>
           <div class="skills-list">
+            <div class="skill-tag"><i class="fas fa-cubes"></i> Terraform (IaC)</div>
             <div class="skill-tag"><i class="fas fa-cogs"></i> Azure DevOps CI/CD</div>
             <div class="skill-tag"><i class="fab fa-github-actions"></i> GitHub Actions & GitHub</div>
             <div class="skill-tag"><i class="fab fa-docker"></i> Docker</div>
@@ -407,7 +408,39 @@
 
       <!-- Projects Grid -->
         
-        <!-- Project 1: Order Fulfillment -->
+        <!-- Project 1: Fargate Containerization -->
+        <div class="project-card" data-category="integration">
+          <div class="project-accent accent-aws"></div>
+          <div class="project-card-header">
+            <div class="project-folder"><i class="far fa-folder"></i></div>
+            <div class="project-links">
+              <a href="https://github.com/bpallavi03" target="_blank" rel="noopener noreferrer" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-card-title">Containerized Web Application on AWS ECS Fargate</h3>
+          <p class="project-card-desc">
+            A secure, automated container deployment system built on AWS utilizing Terraform Infrastructure as Code.
+          </p>
+          <div class="project-card-details">
+            <ul>
+              <li>Designed and automated a secure AWS VPC network using Terraform (IaC), deploying Fargate container tasks in private subnets with a NAT Gateway and routing incoming public traffic through an Application Load Balancer.</li>
+              <li>Containerized a Python web application using Docker, configuring container ports, runtime environments, and pushing the built production image to a private Amazon Elastic Container Registry (ECR).</li>
+              <li>Configured IAM task execution roles and strict security group ingress rules to enforce least-privilege access, restricting containers to only accept traffic originating directly from the load balancer.</li>
+            </ul>
+          </div>
+          <div class="project-card-tech">
+            <span>Terraform</span>
+            <span>Docker</span>
+            <span>AWS ECS Fargate</span>
+            <span>ECR</span>
+            <span>ALB</span>
+            <span>VPC</span>
+            <span>CloudWatch</span>
+            <span>Git</span>
+          </div>
+        </div>
+
+        <!-- Project 2: Order Fulfillment -->
         <div class="project-card" data-category="integration">
           <div class="project-accent accent-mule"></div>
           <div class="project-card-header">
@@ -437,7 +470,7 @@
           </div>
         </div>
 
-        <!-- Project 2: Serverless Quiz -->
+        <!-- Project 3: Serverless Quiz -->
         <div class="project-card" data-category="integration">
           <div class="project-accent accent-aws"></div>
           <div class="project-card-header">
@@ -467,7 +500,7 @@
           </div>
         </div>
 
-        <!-- Project 3: Linux Monitor -->
+        <!-- Project 4: Linux Monitor -->
         <div class="project-card" data-category="monitor">
           <div class="project-accent accent-sys"></div>
           <div class="project-card-header">
@@ -496,7 +529,7 @@
           </div>
         </div>
 
-        <!-- Project 4: Retail Analytics -->
+        <!-- Project 5: Retail Analytics -->
         <div class="project-card" data-category="ml">
           <div class="project-accent accent-azure-card"></div>
           <div class="project-card-header">
@@ -525,7 +558,7 @@
           </div>
         </div>
 
-        <!-- Project 5: Chatbot GCP -->
+        <!-- Project 6: Chatbot GCP -->
         <div class="project-card" data-category="monitor">
           <div class="project-accent accent-gcp"></div>
           <div class="project-card-header">
@@ -563,7 +596,19 @@
       </h2>
       
       <div class="certs-grid reveal">
-        <!-- Cert 1: Postman API Testing -->
+        <!-- Cert 1: AWS Serverless -->
+        <div class="cert-card">
+          <div class="cert-badge">
+            <i class="fab fa-aws"></i>
+          </div>
+          <div class="cert-info">
+            <h3 class="cert-name">AWS Knowledge: Serverless Badge</h3>
+            <span class="cert-issuer">Issued by: Amazon Web Services (AWS)</span>
+            <span class="cert-date">Year: 2026</span>
+          </div>
+        </div>
+
+        <!-- Cert 2: Postman API Testing -->
         <div class="cert-card">
           <div class="cert-badge">
             <i class="fas fa-file-code"></i>
@@ -575,7 +620,7 @@
           </div>
         </div>
 
-        <!-- Cert 2: MuleSoft Certified Developer -->
+        <!-- Cert 3: MuleSoft Certified Developer -->
         <div class="cert-card">
           <div class="cert-badge">
             <i class="fas fa-certificate"></i>
@@ -587,7 +632,7 @@
           </div>
         </div>
 
-        <!-- Cert 3: Cisco Networking -->
+        <!-- Cert 4: Cisco Networking -->
         <div class="cert-card">
           <div class="cert-badge">
             <i class="fas fa-shield-alt"></i>
@@ -599,7 +644,7 @@
           </div>
         </div>
 
-        <!-- Cert 4: Pearson -->
+        <!-- Cert 5: Pearson -->
         <div class="cert-card">
           <div class="cert-badge">
             <i class="fas fa-award"></i>
@@ -611,7 +656,7 @@
           </div>
         </div>
 
-        <!-- Cert 5: TCS iON -->
+        <!-- Cert 6: TCS iON -->
         <div class="cert-card">
           <div class="cert-badge">
             <i class="fas fa-check-double"></i>
