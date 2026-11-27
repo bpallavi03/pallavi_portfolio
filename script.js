@@ -80,14 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
   // --- Typed Text Subtitles Effect ---
   const typedTextSpan = document.getElementById('typedText');
   const textArray = [
-    "Cloud Infrastructure.",
-    "Linux Debugging Workflows.",
-    "Cloud-Native Integrations.",
-    "Infrastructure as Code.",
-    "MuleSoft Certified APIs.",
+    "Linux Troubleshooting.",
+    "Cloud & DevOps Automation.",
     "CI/CD Deployment Pipelines.",
-    "Serverless Architectures.",
-    "ML-powered Analytics."
+    "Enterprise API Integrations.",
+    "Production Systems Support."
   ];
   let textArrayIndex = 0;
   let charIndex = 0;
